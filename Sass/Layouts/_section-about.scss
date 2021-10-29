@@ -1,13 +1,7 @@
-.section-project {
-  .project {
+.section-about {
+  .about {
     display: flex;
     align-items: center;
-
-    &__container {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
 
     &__heading {
       margin: 2rem 0rem;

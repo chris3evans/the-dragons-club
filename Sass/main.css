@@ -103,6 +103,62 @@ body {
   margin: 0rem 1rem;
 }
 
+.section-about .about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-about .about__heading {
+  margin: 2rem 0rem;
+}
+
+.section-about .about__text {
+  padding: 1rem;
+}
+
+.section-about .about__pic {
+  padding: 1rem;
+}
+
+.section-about .about__image {
+  height: 100%;
+  width: 100%;
+  -webkit-box-shadow: 0rem 1rem 3rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0rem 1rem 3rem rgba(0, 0, 0, 0.4);
+}
+
+.section-donations .donations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-donations .donations__heading {
+  margin: 2rem 0rem;
+}
+
+.section-donations .donations__text {
+  padding: 1rem;
+}
+
+.section-donations .donations__pic {
+  padding: 1rem;
+}
+
+.section-donations .donations__image {
+  height: 100%;
+  width: 100%;
+  -webkit-box-shadow: 0rem 1rem 3rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0rem 1rem 3rem rgba(0, 0, 0, 0.4);
+}
+
 .row {
   max-width: 114rem;
   margin: 0 auto;
@@ -195,6 +251,8 @@ body {
 .mint__image {
   height: 100%;
   width: 100%;
+  -webkit-box-shadow: 0rem 1rem 3rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0rem 1rem 3rem rgba(0, 0, 0, 0.4);
 }
 
 .mint__buttons {
@@ -215,6 +273,27 @@ body {
           align-items: center;
 }
 
+.section-project .project__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-project .project__heading {
+  margin: 2rem 0rem;
+}
+
+.section-project .project__text {
+  padding: 1rem;
+}
+
 .section-project .project__pic {
   padding: 1rem;
 }
@@ -222,5 +301,35 @@ body {
 .section-project .project__image {
   height: 100%;
   width: 100%;
+  -webkit-box-shadow: 0rem 1rem 3rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0rem 1rem 3rem rgba(0, 0, 0, 0.4);
+}
+
+.section-roadmap .roadmap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-roadmap .roadmap__heading {
+  margin: 2rem 0rem;
+}
+
+.section-roadmap .roadmap__text {
+  padding: 1rem;
+}
+
+.section-roadmap .roadmap__pic {
+  padding: 1rem;
+}
+
+.section-roadmap .roadmap__image {
+  height: 100%;
+  width: 100%;
+  -webkit-box-shadow: 0rem 1rem 3rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0rem 1rem 3rem rgba(0, 0, 0, 0.4);
 }
 /*# sourceMappingURL=main.css.map */
