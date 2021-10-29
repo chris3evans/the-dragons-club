@@ -1,0 +1,29 @@
+.mint {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__heading {
+    margin: 1rem 0rem;
+  }
+
+  &__text {
+    padding: 1rem;
+  }
+
+  &__pic {
+    padding: 1rem;
+  }
+
+  &__image {
+    height: 100%;
+    width: 100%;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

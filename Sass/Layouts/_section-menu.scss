@@ -1,0 +1,16 @@
+.section-menu {
+  background-color: rgba($color-main-blue, 0.5);
+  padding: 2rem 0rem;
+
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__title {
+    }
+
+    &__navigation {
+    }
+  }
+}

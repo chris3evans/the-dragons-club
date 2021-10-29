@@ -1,0 +1,29 @@
+// BASIC BUTTON
+
+.button {
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  border: none;
+  padding: 1rem 3rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  transition: all 0.4s;
+}
+
+.button:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0rem 1rem 2rem rgba(black, 0.5);
+}
+
+.button:active {
+  transform: translateY(0rem);
+  box-shadow: none;
+}
+
+// BLUE BUTTON
+
+.blue-button {
+  background-color: $color-main-blue !important;
+  color: white !important;
+}
