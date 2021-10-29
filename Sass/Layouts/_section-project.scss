@@ -1,0 +1,17 @@
+.section-project {
+  .project {
+    display: flex;
+    align-items: center;
+    &__text {
+    }
+
+    &__pic {
+      padding: 1rem;
+    }
+
+    &__image {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
