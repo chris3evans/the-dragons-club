@@ -6,11 +6,13 @@
 @import "Base/typography";
 @import "Base/utilities";
 
+@import "Components/accordian-list";
 @import "Components/button";
 @import "Components/navigation-menu";
 
 @import "Layouts/section-about";
 @import "Layouts/section-donations";
+@import "Layouts/section-faq";
 @import "Layouts/grid";
 @import "Layouts/section-menu";
 @import "Layouts/section-mint";

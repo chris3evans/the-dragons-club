@@ -53,9 +53,61 @@ body {
   text-align: center;
 }
 
+.tertiary__heading {
+  font-family: "Ubunto", sans-serif;
+  font-size: 2.5rem;
+}
+
 .main__text {
   font-family: "Ubutnu", sans-serif;
   font-size: 1.8rem;
+}
+
+.center-align {
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+.margin-left-1rem {
+  margin-left: 1rem !important;
+}
+
+.padding-1rem {
+  padding: 1rem !important;
+}
+
+.active {
+  display: block !important;
+}
+
+.accordian__item {
+  display: block;
+}
+
+.accordian__question {
+  width: 100rem;
+  height: 5rem;
+  background-color: #dfdfdf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.accordian__question:hover {
+  background-color: #d0d0d0;
+}
+
+.accordian__answer {
+  width: 100%;
+  background-color: rgba(43, 188, 255, 0.3);
+  display: none;
 }
 
 .button {
