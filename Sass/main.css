@@ -150,6 +150,7 @@ body {
   border-radius: 1rem;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
+  height: 6rem;
 }
 
 .button:hover {
@@ -183,6 +184,51 @@ body {
 
 .menu__item {
   margin: 0rem 1rem;
+}
+
+.menu__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.twitter {
+  height: 7rem;
+  width: 7rem;
+  fill: black;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.twitter:hover {
+  -webkit-transform: translateY(-0.3rem);
+          transform: translateY(-0.3rem);
+}
+
+.twitter:active {
+  -webkit-transform: translateY(0rem);
+          transform: translateY(0rem);
+}
+
+.discord {
+  height: 7rem;
+  width: 7rem;
+  fill: black;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.discord:hover {
+  -webkit-transform: translateY(-0.3rem);
+          transform: translateY(-0.3rem);
+}
+
+.discord:active {
+  -webkit-transform: translateY(0rem);
+          transform: translateY(0rem);
 }
 
 .section-about .about {
@@ -332,7 +378,7 @@ body {
 .section-menu {
   background-color: rgba(43, 188, 255, 0.5);
   width: 100%;
-  padding: 2rem;
+  padding: 0rem;
 }
 
 .section-menu .menu {
