@@ -1,15 +1,39 @@
+// LAYOUT
+
 .center-align {
   justify-content: center !important;
 }
-
 .margin-left-1rem {
   margin-left: 1rem !important;
 }
-
 .padding-1rem {
   padding: 1rem !important;
 }
 
+// ACCORDIAN
+
 .active {
   display: block !important;
+}
+
+// MARGINS
+
+.margin-bottom-small {
+  margin-bottom: 2rem !important;
+}
+.margin-bottom-med {
+  margin-bottom: 6rem !important;
+}
+.margin-bottom-big {
+  margin-bottom: 10rem !important;
+}
+
+.margin-top-small {
+  margin-top: 2rem !important;
+}
+.margin-top-med {
+  margin-top: 6rem !important;
+}
+.margin-bottom-big {
+  margin-top: 10rem !important;
 }

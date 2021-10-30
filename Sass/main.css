@@ -81,6 +81,30 @@ body {
   display: block !important;
 }
 
+.margin-bottom-small {
+  margin-bottom: 2rem !important;
+}
+
+.margin-bottom-med {
+  margin-bottom: 6rem !important;
+}
+
+.margin-bottom-big {
+  margin-bottom: 10rem !important;
+}
+
+.margin-top-small {
+  margin-top: 2rem !important;
+}
+
+.margin-top-med {
+  margin-top: 6rem !important;
+}
+
+.margin-bottom-big {
+  margin-top: 10rem !important;
+}
+
 .accordian__item {
   display: block;
 }
@@ -88,25 +112,25 @@ body {
 .accordian__question {
   width: 100rem;
   height: 5rem;
-  background-color: #dfdfdf;
+  background-color: rgba(43, 188, 255, 0.5);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
   cursor: pointer;
 }
 
 .accordian__question:hover {
-  background-color: #d0d0d0;
+  background-color: rgba(120, 211, 253, 0.5);
 }
 
 .accordian__answer {
   width: 100%;
-  background-color: rgba(43, 188, 255, 0.3);
+  background-color: whitesmoke;
   display: none;
 }
 
@@ -177,6 +201,47 @@ body {
 }
 
 .section-about .about__image {
+  height: 100%;
+  width: 100%;
+  -webkit-box-shadow: 0rem 1rem 3rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0rem 1rem 3rem rgba(0, 0, 0, 0.4);
+}
+
+.section-contact .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-contact .contact__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-contact .contact__heading {
+  margin: 2rem 0rem;
+}
+
+.section-contact .contact__text {
+  padding: 1rem;
+}
+
+.section-contact .contact__pic {
+  padding: 1rem;
+}
+
+.section-contact .contact__image {
   height: 100%;
   width: 100%;
   -webkit-box-shadow: 0rem 1rem 3rem rgba(0, 0, 0, 0.4);

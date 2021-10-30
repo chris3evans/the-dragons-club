@@ -1,9 +1,6 @@
 const allQuestions = document.querySelectorAll(".accordian__question");
 const allAnswers = document.querySelectorAll(".accordian__answer");
 
-const accordianQuestion = document.querySelector(".accordian__question");
-const accordianAnswer = document.querySelector(".accordian__answer");
-
 document.addEventListener("click", function (e) {
   // ID of question to help find correct answer
   const targetQID = e.target.closest(".accordian__question").id;
@@ -15,5 +12,6 @@ document.addEventListener("click", function (e) {
     return answer.id === targetQID;
   });
 
+  // Hide or show depending on current status
   answer.classList.toggle("active");
 });

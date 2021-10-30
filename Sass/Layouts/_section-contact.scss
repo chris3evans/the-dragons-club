@@ -1,0 +1,30 @@
+.section-contact {
+  .contact {
+    display: flex;
+    align-items: center;
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    &__heading {
+      margin: 2rem 0rem;
+    }
+
+    &__text {
+      padding: 1rem;
+    }
+
+    &__pic {
+      padding: 1rem;
+    }
+
+    &__image {
+      height: 100%;
+      width: 100%;
+      box-shadow: $image-box-shadow;
+    }
+  }
+}
