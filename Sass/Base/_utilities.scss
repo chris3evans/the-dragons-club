@@ -16,6 +16,15 @@
   display: block !important;
 }
 
+// STICKY NAVIGATION
+
+.sticky {
+  position: fixed;
+  margin-top: -6rem;
+  opacity: 0.8;
+  display: block;
+}
+
 // MARGINS
 
 .margin-bottom-small {

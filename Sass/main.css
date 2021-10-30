@@ -44,7 +44,6 @@ html {
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 1rem;
 }
 
 .secondary__heading {
@@ -79,6 +78,13 @@ body {
 
 .active {
   display: block !important;
+}
+
+.sticky {
+  position: fixed;
+  margin-top: -6rem;
+  opacity: 0.8;
+  display: block;
 }
 
 .margin-bottom-small {
@@ -325,7 +331,8 @@ body {
 
 .section-menu {
   background-color: rgba(43, 188, 255, 0.5);
-  padding: 2rem 0rem;
+  width: 100%;
+  padding: 2rem;
 }
 
 .section-menu .menu {

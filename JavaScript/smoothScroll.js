@@ -12,8 +12,6 @@ const sectionAbout = document.querySelector(".section-about");
 const sectionFaq = document.querySelector(".section-faq");
 const sectionContact = document.querySelector(".section-contact");
 
-console.log(mintBtn);
-
 mintBtn.addEventListener("click", function () {
   sectionMint.scrollIntoView({ behavior: "smooth" });
 });
