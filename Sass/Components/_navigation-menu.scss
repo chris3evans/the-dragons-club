@@ -7,3 +7,34 @@
 .menu__item {
   margin: 0rem 1rem;
 }
+
+.menu__links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.twitter {
+  height: 7rem;
+  width: 7rem;
+  fill: black;
+  transition: all 0.3s;
+}
+.twitter:hover {
+  transform: translateY(-0.3rem);
+}
+.twitter:active {
+  transform: translateY(0rem);
+}
+
+.discord {
+  height: 7rem;
+  width: 7rem;
+  fill: black;
+  transition: all 0.3s;
+}
+.discord:hover {
+  transform: translateY(-0.3rem);
+}
+.discord:active {
+  transform: translateY(0rem);
+}
