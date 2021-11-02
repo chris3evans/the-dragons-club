@@ -1,17 +1,27 @@
 .section-menu {
   background-color: rgba($color-main-blue, 0.8);
   width: 100%;
-  padding: 0rem;
 
   .menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
+    @include respond(tab-land) {
+      display: block;
+    }
+
     &__title {
+      @include respond(tab-land) {
+        padding: 1.5rem 0rem;
+      }
     }
 
     &__navigation {
+      @include respond(tab-land) {
+        display: flex;
+        justify-content: center;
+      }
     }
   }
 }

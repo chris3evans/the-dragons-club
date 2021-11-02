@@ -8,6 +8,7 @@ const contactBtn = document.getElementById("contact");
 const sectionMint = document.querySelector(".section-mint");
 const sectionProject = document.querySelector(".section-project");
 const sectionRoadmap = document.querySelector(".section-roadmap");
+const sectionDonations = document.querySelector(".section-donations");
 const sectionAbout = document.querySelector(".section-about");
 const sectionFaq = document.querySelector(".section-faq");
 const sectionContact = document.querySelector(".section-contact");

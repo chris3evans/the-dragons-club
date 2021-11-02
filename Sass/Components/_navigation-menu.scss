@@ -11,6 +11,11 @@
 .menu__links {
   display: flex;
   justify-content: space-evenly;
+
+  @include respond(tab-land) {
+    padding: 1.5rem 0rem 1rem 0rem;
+    justify-content: center;
+  }
 }
 
 .twitter {
@@ -18,6 +23,13 @@
   width: 7rem;
   fill: black;
   transition: all 0.3s;
+  @include respond(tab-land) {
+    margin-right: 2rem;
+  }
+  @include respond(tab-port) {
+    height: 5rem;
+    width: 5rem;
+  }
 }
 .twitter:hover {
   transform: translateY(-0.3rem);
@@ -31,6 +43,10 @@
   width: 7rem;
   fill: black;
   transition: all 0.3s;
+  @include respond(tab-port) {
+    height: 5rem;
+    width: 5rem;
+  }
 }
 .discord:hover {
   transform: translateY(-0.3rem);

@@ -1,4 +1,12 @@
+.section-mint {
+  background-image: url("../../Images/stock-image.jpg");
+  background-position: center;
+}
+
 .mint {
+  display: flex;
+  align-items: center;
+
   &__container {
     display: flex;
     flex-direction: column;

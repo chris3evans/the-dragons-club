@@ -24,6 +24,11 @@
   opacity: 0.9;
   display: block;
 }
+.block {
+  @include respond(tab-land) {
+    display: block;
+  }
+}
 
 // MARGINS
 
@@ -43,6 +48,41 @@
 .margin-top-med {
   margin-top: 6rem !important;
 }
-.margin-bottom-big {
+.margin-top-big {
   margin-top: 10rem !important;
+}
+
+// PADDINGS
+
+.padding-top-small {
+  padding-top: 2rem !important;
+}
+.padding-top-med {
+  padding-top: 6rem !important;
+}
+.padding-top-big {
+  padding-top: 10rem !important;
+}
+
+.padding-bottom-small {
+  padding-bottom: 2rem !important;
+}
+.padding-bottom-med {
+  padding-bottom: 6rem !important;
+}
+.padding-bottom-big {
+  padding-bottom: 10rem !important;
+}
+
+.padding-2rem {
+  padding: 2rem !important;
+}
+// COLORS
+
+.background-grey {
+  background-color: $color-background-grey;
+}
+
+.color-white {
+  color: white !important;
 }
