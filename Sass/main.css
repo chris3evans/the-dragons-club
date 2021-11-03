@@ -303,8 +303,8 @@ body {
 }
 
 .twitter {
-  height: 7rem;
-  width: 7rem;
+  height: 6rem;
+  width: 6rem;
   fill: black;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -334,8 +334,8 @@ body {
 }
 
 .discord {
-  height: 7rem;
-  width: 7rem;
+  height: 6rem;
+  width: 6rem;
   fill: black;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -514,6 +514,9 @@ body {
 .section-menu {
   background-color: rgba(43, 188, 255, 0.8);
   width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
 }
 
 .section-menu .menu {
@@ -552,7 +555,7 @@ body {
 }
 
 .section-mint {
-  background-image: url("../../Images/stock-image.jpg");
+  background-image: url("../Images/stock-image.jpg");
   background-position: center;
 }
 

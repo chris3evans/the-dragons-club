@@ -19,8 +19,8 @@
 }
 
 .twitter {
-  height: 7rem;
-  width: 7rem;
+  height: 6rem;
+  width: 6rem;
   fill: black;
   transition: all 0.3s;
   @include respond(tab-land) {
@@ -39,8 +39,8 @@
 }
 
 .discord {
-  height: 7rem;
-  width: 7rem;
+  height: 6rem;
+  width: 6rem;
   fill: black;
   transition: all 0.3s;
   @include respond(tab-port) {

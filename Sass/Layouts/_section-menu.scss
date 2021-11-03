@@ -1,6 +1,8 @@
 .section-menu {
   background-color: rgba($color-main-blue, 0.8);
   width: 100%;
+  position: sticky;
+  top: 0px;
 
   .menu {
     display: flex;
